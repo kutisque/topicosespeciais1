@@ -20,7 +20,7 @@ Salário Liquido                                 : R$  935,00
 Impressão na tela conforme o exemplo acima. */
 
 
-let salarioBruto = 1500;
+let salarioBruto = 900;
 
 function IR (salarioBruto){
     if (salarioBruto <= 900) {
@@ -41,5 +41,6 @@ function INSS ()
 let salarioTotal = IR (salarioBruto);
 console.log("Desconto IR: " + salarioTotal);
 
-INSS ();
+/*INSS ();
 console.log("Desconto INSS: " + inss);
+*/
